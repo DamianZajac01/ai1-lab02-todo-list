@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do Lista</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="search-container">
+        <label>
+            <input id="search-input" type="text" placeholder="Szukaj...">
+        </label>
+    </section>
+
+    <section id="to-do-list">
+        <table id="to-do-table">
+            <tr style="display: none">
+                <td class="checkbox">
+                    <input type="checkbox">
+                </td>
+                <td class="task">
+                    <p>chocolate</p>
+                </td>
+                <td class="date">
+                    <p>2000-01-01</p>
+                </td>
+                <td class="delete-button">
+                    <button type="button" class="delete-task-button">Usuń</button>
+                </td>
+            </tr>
+
+<!--            <tr>-->
+<!--                <td class="checkbox">-->
+<!--                    <input type="checkbox">-->
+<!--                </td>-->
+<!--                <td class="task">-->
+<!--                    <p>chupa chups</p>-->
+<!--                </td>-->
+<!--                <td class="date">-->
+<!--                    <p></p>-->
+<!--                </td>-->
+<!--                <td class="delete-button">-->
+<!--                    <button type="button" class="delete-task-button">Usuń</button>-->
+<!--                </td>-->
+<!--            </tr>-->
+
+<!--            <tr>-->
+<!--                <td class="checkbox">-->
+<!--                    <input type="checkbox">-->
+<!--                </td>-->
+<!--                <td class="task">-->
+<!--                    <p>bon bons</p>-->
+<!--                </td>-->
+<!--                <td class="date">-->
+<!--                    <p>2000-01-05</p>-->
+<!--                </td>-->
+<!--                <td class="delete-button">-->
+<!--                    <button type="button" class="delete-task-button">Usuń</button>-->
+<!--                </td>-->
+<!--            </tr>-->
+        </table>
+    </section>
+
+    <section id="add-task">
+        <input type="text" placeholder="Do zrobienia..." id="task-name-input">
+        <input type="date" placeholder="2000-01-01" id="task-date-input">
+        <button type="button" id="add-task-button">Zapisz</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

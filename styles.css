@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+input {
+    border: 2px solid #858383;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#search-input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+td {
+    margin: 0 100px;
+    vertical-align: center;
+    text-align: center;
+    padding: 10px;
+}
+
+table, tr {
+    border: 2px solid #858383;
+    border-collapse: collapse;
+}
+
+.task {
+    text-align: left;
+    width: 45%;
+}
+
+.checkbox {
+    margin: 0;
+    text-align: left;
+    width: 5%;
+}
+
+.date {
+    width: 45%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.delete-button {
+    width: 5%;
+}
+
+.delete-button button {
+    margin: auto 40px auto auto;
+    background-color: #dc1d1d;
+}
+
+table {
+    width: 100%;
+}
+
+button {
+    background-color: #3c90e5;
+    border: 2px solid #858383;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.date {
+    font-weight: bold;
+}
+
+#add-task {
+    margin-top: 2%;
+}
