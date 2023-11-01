@@ -82,7 +82,7 @@ function addFromInput() {
         if (taskName.value.length < 3) {
             alert("Nazwa zadania musi zawierać minimum 3 znaki.");
             return;
-        } else if (taskName.innerHTML.length > 255) {
+        } else if (taskName.value.length > 255) {
             alert("Nazwa zadania nie może zawierać więcej niż 255 znaków.")
             return;
         }
